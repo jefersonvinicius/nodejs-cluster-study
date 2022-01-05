@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-stress-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn ts-node src/server.ts",
+    "start": "yarn build && node build/server.js",
+    "build": "yarn tsc"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
